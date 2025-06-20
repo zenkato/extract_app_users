@@ -1,8 +1,8 @@
 import os
 import logging
-from data_fetcher import MySqlFetcher
-from file_writer import CsvWriter
-from uploader import GoogleDriveUploader
+from .data_fetcher import MySqlFetcher
+from .file_writer import CsvWriter
+from .uploader import GoogleDriveUploader
 
 class SalesDataPipeline:
     """

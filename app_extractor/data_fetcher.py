@@ -1,7 +1,7 @@
 import mysql.connector
 import pandas as pd
 from typing import Dict, Any
-from exceptions import DataFetchError
+from .exceptions import DataFetchError
 
 class MySqlFetcher:
     """MySQLデータベースからデータを取得する責務を持つクラス。"""

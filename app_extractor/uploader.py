@@ -5,7 +5,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build, Resource
 from googleapiclient.http import MediaFileUpload
 from googleapiclient.errors import HttpError
-from exceptions import FileUploadError, ConfigurationError
+from .exceptions import FileUploadError, ConfigurationError
 
 class GoogleDriveUploader:
     """ファイルをGoogle Driveにアップロードする責務を持つクラス。"""
